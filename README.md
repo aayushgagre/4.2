@@ -292,3 +292,68 @@ public class DBUtil {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<a href="LoginServlet?action=index">Login</a>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="LoginServlet?action=login" method="post">
+<table>
+<tr>
+	<td>Username</td>
+	<td><input type="text" name="username"/>
+</tr>
+<tr>
+	<td>password</td>
+	<td><input type="password" name="password"/>
+</tr>
+<tr>
+	<td><input type="submit" value="submit"/></td>
+	<td><input type="reset" value="reset"/></td>
+</tr>
+</table>
+
+</form>
+</body>
+</html>
